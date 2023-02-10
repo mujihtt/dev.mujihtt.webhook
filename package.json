@@ -1,0 +1,20 @@
+{
+  "name": "dev.mujihtt.webhook",
+  "version": "1.0.0",
+  "description": "webhook auto pull and run from github",
+  "main": "index.js",
+  "repository": "git@github.com:mujihtt/dev.mujihtt.webhook.git",
+  "author": "Muji Hartanto <mujihtt@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
